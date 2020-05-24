@@ -1,0 +1,11 @@
+#player-cont {
+	bottom: 0px;
+	position: fixed;
+	/*border-top-left-radius: 25px;
+	border-top-right-radius: 25px;*/
+	width: 100%;
+	z-index: 10;
+	height: 60px;
+	border-top: solid .5px #111;
+	background-color: #030303;
+}

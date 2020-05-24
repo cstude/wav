@@ -1,0 +1,132 @@
+
+input:focus {
+  outline: none;
+}
+
+#header-cont {
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: 100px;
+	top: 0px;
+	border-bottom: solid .5px #111;
+	background-color: #030303;
+}
+
+#top-header {
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	top: 0px;
+}
+
+#search-bar-cont {
+	bottom: 0px;
+	position: absolute;
+	height: 35px;
+	background-color: rgba(255, 255, 255, .03);
+	left: 17.5px;
+	right: 70px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+#search-bar-cont .fa-search {
+	position: absolute;
+	font-size: 16px;
+	top: 9.1px;
+	left: 10px;
+	color: #fff;
+	color: rgba(255, 255, 255, .5);
+}
+
+#search-input-cont {
+	position: absolute;
+	height: 100%;
+	left: 36px;
+	right: 36px;
+}
+
+#search-bar-cont input {
+	/* Remove defualt styling */
+	border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  width: 100%;
+  height: 100%;
+  left: 50px;
+  color: #fff;
+  font-size: 16px;
+
+}
+
+#search-bar-cont input::placeholder {
+	color: rgba(255, 255, 255, .5);
+}
+
+#prof-pic {
+	position: absolute;
+	height: 35px;
+	width: 35px;
+	bottom: 0px;
+	right: 17.5px;
+	border-radius: 50%;
+	background-image: url('../../media/img/profilepic.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#bottom-header {
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	bottom: 0px;
+	overflow-x: hidden;
+}
+
+#bottom-header div {
+	position: absolute;
+	width: 25%;
+	height: 100%;
+}
+
+.active {
+	color: #fff;
+}
+
+.inherit {
+	color: inherit !important;
+}
+
+#bottom-header p {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-weight: bold;
+	color:  rgba(255, 255, 255, .6);
+}
+
+#bottom-header .explore {
+	left: 25%;
+}
+
+#bottom-header .radio {
+	left: 50%;
+}
+
+#bottom-header .charts {
+	left: 75%;
+}
+
+#current-page-accent {
+	position: absolute;
+	width: 25%;
+	height: 3px;
+	background-color: #ffa177ff;
+	bottom:  .5px;
+}
