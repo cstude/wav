@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div id="master-cont">
-      <Header />
+      <Header /> 
       <Player />
     </div>
   )
