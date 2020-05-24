@@ -14,10 +14,10 @@ function MiniPlayer() {
       <div id="song-info">
 
         <div className="title">
-          <p>Blinding Lights</p>
+          <p>Out of LOVE</p>
         </div>
         <div className="artist">
-          <p>The Weeknd</p>
+          <p>Lil Tecca</p>
         </div>
       </div>
       <div className="like-button">
