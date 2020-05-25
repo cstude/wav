@@ -95,7 +95,11 @@ input:focus {
 }
 
 .active {
-	color: #fff;
+	color: #ffa177ff;
+}
+
+.library p{
+  color: #ffa177ff !important;
 }
 
 .inherit {
@@ -106,6 +110,7 @@ input:focus {
 	position: absolute;
 	left: 50%;
 	top: 50%;
+  font-size: 18px;
 	transform: translate(-50%,-50%);
 	font-weight: bold;
 	color:  rgba(255, 255, 255, .6);
